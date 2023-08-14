@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 50px;
+}
+
+h1 {
+    color: #333;
+}
+
+.game {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.player, .result {
+    flex: 1;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 10px;
+}
+
+button:hover {
+    background-color: #f2f2f2;
+    cursor: pointer;
+}
+/* Your existing CSS styles */
+
+/* Style the images */
+button img {
+    max-width: 100px;
+    height: auto;
+}
+
+#computer-choice img {
+    max-width: 100px;
+    height: auto;
+    margin-top: 20px;
+}
+/* Your existing CSS styles */
+
+/* Add a "shake" animation */
+.shake {
+    animation: shake 0.5s ease-in-out;
+}
+
+@keyframes shake {
+    0%, 100% {
+        transform: translateX(0);
+    }
+    25%, 75% {
+        transform: translateX(-10px);
+    }
+    50% {
+        transform: translateX(10px);
+    }
+}
+
+/* Improve image animations */
+button img, #computer-choice img {
+    max-width: 100px;
+    height: auto;
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Scale the images on hover */
+button:hover img, #computer-choice img {
+    transform: scale(1.1);
+}

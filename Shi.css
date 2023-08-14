@@ -28,7 +28,7 @@ button:hover {
     background-color: #f2f2f2;
     cursor: pointer;
 }
-/* Your existing CSS styles */
+
 
 /* Style the images */
 button img {
@@ -41,9 +41,8 @@ button img {
     height: auto;
     margin-top: 20px;
 }
-/* Your existing CSS styles */
 
-/* Add a "shake" animation */
+/* for Shake animation */
 .shake {
     animation: shake 0.5s ease-in-out;
 }
@@ -60,14 +59,14 @@ button img {
     }
 }
 
-/* Improve image animations */
+/* Enhance animation */
 button img, #computer-choice img {
     max-width: 100px;
     height: auto;
     transition: transform 0.3s ease-in-out;
 }
 
-/* Scale the images on hover */
+/* hovering images */
 button:hover img, #computer-choice img {
     transform: scale(1.1);
 }

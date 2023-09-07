@@ -5,7 +5,6 @@ This is a simple web-based Rock, Paper, Scissors game built using HTML, CSS, and
 
 # Features
 User-friendly interface
-Interactive gameplay
 Randomized computer choices
 Win, lose, or draw outcome display
 Play again option
